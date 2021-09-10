@@ -16,3 +16,32 @@ I began to study HTML/CSS independently, and then decided to enroll in courses o
 Now I am looking for my first job.
 
 ---
+
+## Skills:
+
+- HTML
+- CSS/Sass
+- JavaScript
+- React
+- Git
+
+---
+
+## Code Example:
+
+```
+ const accum = (str) => {
+ 	return str
+ 		.toUpperCase()
+ 		.split("")
+ 		.map((i, index) => `${i}${i.repeat(index).toLowerCase()}`)
+ 		.join("-");
+ };
+
+accum("abcd") -> "A-Bb-Ccc-Dddd"
+accum("RqaEzty") -> "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
+accum("cwAt") -> "C-Ww-Aaa-Tttt"
+
+```
+
+---
