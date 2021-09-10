@@ -45,3 +45,18 @@ accum("cwAt") -> "C-Ww-Aaa-Tttt"
 ```
 
 ---
+
+## Courses:
+
+### IT-SHATLE:
+
+- HTML/CSS
+- JavaScript
+- React
+
+---
+
+## Languages:
+
+- Russian: native
+- English: A1-A2
