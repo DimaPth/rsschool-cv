@@ -9,22 +9,21 @@
 			href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap"
 			rel="stylesheet"
 		/>
-		<link rel="stylesheet" href="style.css" />
-		<title>Rsschool-html-cv</title>
+		<link rel="stylesheet" href="/css/style.css" />
+		<title>Dzmirty Petukh CV</title>
 	</head>
 	<body>
 		<div class="container">
 			<div class="content-wrap">
 				<aside class="left-column">
-					<div class="photo"><img src="/images/FeKim2CQ520.jpg" alt="photo" width="250px" /></div>
+					<div class="photo"><img src="/images/FeKim2CQ520.jpg" alt="photo" width="250" /></div>
 					<section class="contacts">
 						<h3 class="title">Contacts:</h3>
 						<ul>
 							<li>Tel: +375291193976</li>
 							<li>email: dzmitry.pth@mail.ru</li>
 							<li>Telegram: @Dima_Pth</li>
-							<li><a href="https://www.linkedin.com/in/dima-pth/">LinkedIn</a></li>
-							<li><a href="https://github.com/DimaPth">GitHub</a></li>
+							<li><a href="https://www.linkedin.com/in/dima-pth/" target="_blank">LinkedIn</a></li>
 						</ul>
 					</section>
 					<section class="skills">
@@ -36,6 +35,12 @@
 							<li>React</li>
 							<li>Git</li>
 						</ul>
+					</section>
+					<section class="education">
+						<h3 class="title">Education:</h3>
+						<p>Specialized secondary education</p>
+						<p>Years: 2012-2016</p>
+						<p>Specialization: Assembling and setting of electrical equipment</p>
 					</section>
 					<section class="languages">
 						<h3 class="title">Languages:</h3>
@@ -57,16 +62,10 @@
 							React. Now I am looking for my first job.
 						</p>
 					</section>
-					<section class="education">
-						<h3 class="title">Education:</h3>
-						<p>Specialized secondary education</p>
-						<p>Years: 2012-2016</p>
-						<p>Specialization: Assembling and setting of electrical equipment</p>
-					</section>
 					<section class="courses">
 						<h3 class="title">Courses:</h3>
 						<div class="course">
-							<div><img src="./images/js.png" alt="js icon" width="80px" /></div>
+							<div><img src="./images/js.png" alt="js icon" width="80" /></div>
 							<div class="course-info">
 								<h3>JavaScript</h3>
 								<span>ItGid</span>
@@ -75,7 +74,7 @@
 							</div>
 						</div>
 						<div class="course">
-							<div><img src="./images/react.png" alt="react icon" width="80px" /></div>
+							<div><img src="./images/react.png" alt="react icon" width="80" /></div>
 							<div class="course-info">
 								<h3>React</h3>
 								<span>IT-SHATLE</span>
@@ -84,7 +83,7 @@
 							</div>
 						</div>
 						<div class="course">
-							<div><img src="./images/js.png" alt="js icon" width="80px" /></div>
+							<div><img src="./images/js.png" alt="js icon" width="80" /></div>
 							<div class="course-info">
 								<h3>JavaScript</h3>
 								<span>IT-SHATLE</span>
@@ -93,7 +92,7 @@
 							</div>
 						</div>
 						<div class="course">
-							<div><img src="./images/html.png" alt="html icon" width="80px" /></div>
+							<div><img src="./images/html.png" alt="html icon" width="80" /></div>
 							<div class="course-info">
 								<h3>HTML</h3>
 								<span>IT-SHATLE</span>
@@ -102,8 +101,32 @@
 							</div>
 						</div>
 					</section>
+					<section class="code">
+						<h3 class="title">Code example:</h3>
+						<pre>
+const accum = (str) => {
+ return str
+  .toUpperCase()
+  .split("")
+  .map((i, index) => `${i}${i.repeat(index).toLowerCase()}`)
+  .join("-");
+};
+
+accum("abcd") -> "A-Bb-Ccc-Dddd"
+accum("RqaEzty") -> "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
+accum("cwAt") -> "C-Ww-Aaa-Tttt"
+						</pre
+						>
+					</section>
 				</main>
 			</div>
+			<footer>
+				<a href="https://github.com/DimaPth" target="_blank"><img src="/images/github.svg" alt="github icon" /></a>
+				<span>2021</span>
+				<a href="https://rs.school/js/" target="_blank"
+					><img src="/images/rsschool.svg" alt="Rss logo" width="73" height="26"
+				/></a>
+			</footer>
 		</div>
 	</body>
 </html>

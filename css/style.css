@@ -17,7 +17,7 @@ body {
 .container {
 	width: 1024px;
 	margin: 0 auto;
-	background-color: #f5f5f5;
+	background-color: var(--white);
 }
 
 .content-wrap {
@@ -100,7 +100,8 @@ body {
 }
 
 .course-info span {
-	font-size: 14px;
+	font-size: 13px;
+	font-weight: bold;
 	font-style: italic;
 }
 
@@ -108,4 +109,24 @@ body {
 	position: absolute;
 	top: 4px;
 	right: 5px;
+}
+
+.code pre {
+	background-color: #bdbdbd;
+	font-size: 14px;
+	padding: 20px;
+}
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: var(--background);
+	color: var(--white);
+	padding: 20px;
+	border-top: 3px solid #6d6c6c;
+}
+
+footer > a {
+	color: var(--white);
 }
