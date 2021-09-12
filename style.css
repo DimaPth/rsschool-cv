@@ -1,0 +1,111 @@
+* {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+body {
+	font-family: "Noto Sans KR", sans-serif;
+	background: #6d6c6c;
+}
+
+:root {
+	--background: #212121;
+	--white: #f5f6f7;
+}
+.container {
+	width: 1024px;
+	margin: 0 auto;
+	background-color: #f5f5f5;
+}
+
+.content-wrap {
+	display: flex;
+}
+
+.title {
+	padding: 5px;
+	transform: translateY(-40%);
+}
+
+.left-column {
+	padding: 40px 0;
+	width: 40%;
+	background-color: var(--background);
+	color: var(--white);
+}
+
+.left-column a {
+	color: var(--white);
+}
+
+.left-column .photo {
+	height: 250px;
+	text-align: center;
+}
+
+.left-column .photo img {
+	border-radius: 50%;
+	border: 3px solid var(--white);
+}
+
+.left-column > section {
+	padding: 0 80px;
+	margin-top: 80px;
+}
+
+.left-column > section > .title {
+	border-bottom: 3px dotted var(--white);
+}
+
+.right-column {
+	padding: 40px 0;
+	width: 60%;
+}
+
+.right-column > header {
+	text-align: center;
+}
+
+.right-column .subtitle {
+	margin-bottom: 27px;
+	color: #6d6d6d;
+}
+
+.right-column section {
+	padding: 30px;
+}
+
+.right-column > section > .title {
+	border-bottom: 3px dotted black;
+}
+
+.course {
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+	padding: 15px;
+	border: 2px dotted black;
+}
+
+.course .image {
+	width: 80px;
+	height: 80px;
+}
+
+.course-info {
+	position: relative;
+	margin-left: 20px;
+}
+
+.course-info span {
+	font-size: 14px;
+	font-style: italic;
+}
+
+.course-info .date {
+	position: absolute;
+	top: 4px;
+	right: 5px;
+}
