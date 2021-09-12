@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="/css/style.css" />
+		<title>Dzmirty Petukh CV</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="content-wrap">
+				<aside class="left-column">
+					<div class="photo"><img src="/images/FeKim2CQ520.jpg" alt="photo" width="250" /></div>
+					<section class="contacts">
+						<h3 class="title">Contacts:</h3>
+						<ul>
+							<li>Tel: +375291193976</li>
+							<li>email: dzmitry.pth@mail.ru</li>
+							<li>Telegram: @Dima_Pth</li>
+							<li><a href="https://www.linkedin.com/in/dima-pth/" target="_blank">LinkedIn</a></li>
+						</ul>
+					</section>
+					<section class="skills">
+						<h3 class="title">Skills:</h3>
+						<ul>
+							<li>HTML</li>
+							<li>CSS/Sass</li>
+							<li>JavaScript</li>
+							<li>React</li>
+							<li>Git</li>
+						</ul>
+					</section>
+					<section class="education">
+						<h3 class="title">Education:</h3>
+						<p>Specialized secondary education</p>
+						<p>Years: 2012-2016</p>
+						<p>Specialization: Assembling and setting of electrical equipment</p>
+					</section>
+					<section class="languages">
+						<h3 class="title">Languages:</h3>
+						<ul>
+							<li>Russian: native</li>
+							<li>English: A1-A2</li>
+						</ul>
+					</section>
+				</aside>
+				<main class="right-column">
+					<header>
+						<h1>Petukh Dzmitry</h1>
+						<h2 class="subtitle">Traniee/Junior Frontend Developer (React)</h2>
+					</header>
+					<section class="about-myself">
+						<h3 class="title">About Myself:</h3>
+						<p>
+							I began to study HTML/CSS independently, and then decided to enroll in courses on HTML/CSS, JavaScript and
+							React. Now I am looking for my first job.
+						</p>
+					</section>
+					<section class="courses">
+						<h3 class="title">Courses:</h3>
+						<div class="course">
+							<div><img src="./images/js.png" alt="js icon" width="80" /></div>
+							<div class="course-info">
+								<h3>JavaScript</h3>
+								<span>ItGid</span>
+								<p>Advanced JavaScript: Loops, Arrays, DOM, Object, Touch, API, Fetch.</p>
+								<span class="date">March 2021 - June 2021</span>
+							</div>
+						</div>
+						<div class="course">
+							<div><img src="./images/react.png" alt="react icon" width="80" /></div>
+							<div class="course-info">
+								<h3>React</h3>
+								<span>IT-SHATLE</span>
+								<p>SPA using CRA, React context, Material UI, Router, React Hooks, getting API data.</p>
+								<span class="date">January 2021 - March 2021</span>
+							</div>
+						</div>
+						<div class="course">
+							<div><img src="./images/js.png" alt="js icon" width="80" /></div>
+							<div class="course-info">
+								<h3>JavaScript</h3>
+								<span>IT-SHATLE</span>
+								<p>Learn the basics of JavaScript (ES6), use loops, work with arrays.</p>
+								<span class="date">November 2020 - January 2021</span>
+							</div>
+						</div>
+						<div class="course">
+							<div><img src="./images/html.png" alt="html icon" width="80" /></div>
+							<div class="course-info">
+								<h3>HTML</h3>
+								<span>IT-SHATLE</span>
+								<p>Responsive, cross-browser layout with using CSS preprocessors</p>
+								<span class="date">September 2020 - November 2020</span>
+							</div>
+						</div>
+					</section>
+					<section class="code">
+						<h3 class="title">Code example:</h3>
+						<pre>
+const accum = (str) => {
+ return str
+  .toUpperCase()
+  .split("")
+  .map((i, index) => `${i}${i.repeat(index).toLowerCase()}`)
+  .join("-");
+};
+
+accum("abcd") -> "A-Bb-Ccc-Dddd"
+accum("RqaEzty") -> "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
+accum("cwAt") -> "C-Ww-Aaa-Tttt"
+						</pre
+						>
+					</section>
+				</main>
+			</div>
+			<footer>
+				<a href="https://github.com/DimaPth" target="_blank"><img src="/images/github.svg" alt="github icon" /></a>
+				<span>2021</span>
+				<a href="https://rs.school/js/" target="_blank"
+					><img src="/images/rsschool.svg" alt="Rss logo" width="73" height="26"
+				/></a>
+			</footer>
+		</div>
+	</body>
+</html>
