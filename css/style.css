@@ -51,6 +51,7 @@ body {
 }
 
 .left-column .mobile-header {
+	margin-top: 40px;
 	text-align: center;
 	display: none;
 }
@@ -162,5 +163,28 @@ footer > a {
 	}
 	.code {
 		display: none;
+	}
+}
+
+@media screen and (max-width: 620px) {
+	.desktop-header {
+		display: none;
+	}
+	.left-column .mobile-header {
+		display: block;
+	}
+	.content-wrap {
+		flex-direction: column;
+	}
+	.left-column {
+		text-align: center;
+		width: 100%;
+	}
+	.left-column > section {
+		margin: 40px auto 0;
+		width: 60%;
+	}
+	.right-column {
+		width: 100%;
 	}
 }
