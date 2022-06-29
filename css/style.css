@@ -5,6 +5,15 @@
 	text-decoration: none;
 }
 
+a {
+	color: #000;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #666;
+}
+
 body {
 	font-family: "Noto Sans KR", sans-serif;
 	background: #6d6c6c;
@@ -38,6 +47,10 @@ body {
 
 .left-column a {
 	color: var(--white);
+}
+
+.left-column a:hover {
+	color: rgb(212, 211, 211);
 }
 
 .left-column .photo {
@@ -86,6 +99,22 @@ body {
 
 .right-column > section > .title {
 	border-bottom: 3px dotted black;
+}
+
+.projects-title {
+	transform: translateY(0);
+}
+
+.project-title {
+	margin: 10px;
+}
+
+.project-title a {
+	color: #000;
+}
+
+.project-title a:hover {
+	color: rgb(65, 65, 65);
 }
 
 .course {
